@@ -1,0 +1,21 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Mon, 24 Nov 2025 12:29:34 GMT",
+        "Content-Type": "application\/json",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Server": "Apache\/2.4.64 (Amazon Linux) OpenSSL\/3.2.2",
+        "Vary": "Origin,Access-Control-Request-Method,Access-Control-Request-Headers",
+        "X-Rate-Limit-Remaining": "49",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+        "Pragma": "no-cache",
+        "Expires": "0",
+        "Strict-Transport-Security": "max-age=31536000 ; includeSubDomains",
+        "X-Frame-Options": "DENY"
+    },
+    "data": "{\n  \"count\" : 2,\n  \"content\" : [ {\n    \"name\" : \"Europacco.com\",\n    \"description\" : \"Europacco ist ein Speditionsunternehmen mit Sitz in Bozen, das seinen Kunden ein Online-Portal zur Verf\u00fcgung stellt, \u00fcber das sie Sendungen mit Hausabholung und -zustellung organisieren k\u00f6nnen.\",\n    \"phone\" : \"+39 0471 1962318\",\n    \"address\" : \"Luigi-Negrelli-Stra\u00dfe 15\",\n    \"city\" : \"Bozen\",\n    \"state\" : \"IT\",\n    \"country\" : \"Italien\",\n    \"zipcode\" : \"39100\",\n    \"domains\" : [ \"europacco.com\" ],\n    \"created_on\" : \"2025-09-26 14:34:47\",\n    \"updated_on\" : \"1970-01-01 00:00:00\",\n    \"sla\" : \"Europacco Priority\"\n  }, {\n    \"name\" : \"OMEST GMBH\",\n    \"description\" : null,\n    \"phone\" : null,\n    \"address\" : null,\n    \"city\" : null,\n    \"state\" : null,\n    \"country\" : null,\n    \"zipcode\" : null,\n    \"domains\" : [ \"omest.com\" ],\n    \"created_on\" : \"2025-09-26 14:34:47\",\n    \"updated_on\" : \"1970-01-01 00:00:00\",\n    \"sla\" : \"Europacco Priority\"\n  } ]\n}",
+    "context": []
+}

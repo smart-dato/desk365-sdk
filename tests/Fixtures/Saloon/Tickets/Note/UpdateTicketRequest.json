@@ -1,0 +1,21 @@
+{
+    "statusCode": 201,
+    "headers": {
+        "Date": "Mon, 24 Nov 2025 12:43:31 GMT",
+        "Content-Type": "application\/json",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Server": "Apache\/2.4.64 (Amazon Linux) OpenSSL\/3.2.2",
+        "Vary": "Origin,Access-Control-Request-Method,Access-Control-Request-Headers",
+        "X-Rate-Limit-Remaining": "48",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+        "Pragma": "no-cache",
+        "Expires": "0",
+        "Strict-Transport-Security": "max-age=31536000 ; includeSubDomains",
+        "X-Frame-Options": "DENY"
+    },
+    "data": "{\n  \"body\" : \"<div>This is a note added to the ticket.<\/div>\",\n  \"notify_emails\" : null,\n  \"to_email\" : null,\n  \"ticket_number\" : 90,\n  \"private_note\" : 1,\n  \"attachments\" : [ ]\n}",
+    "context": []
+}

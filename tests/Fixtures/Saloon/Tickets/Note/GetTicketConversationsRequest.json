@@ -1,0 +1,21 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Mon, 24 Nov 2025 12:43:31 GMT",
+        "Content-Type": "application\/json",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Server": "Apache\/2.4.64 (Amazon Linux) OpenSSL\/3.2.2",
+        "Vary": "Origin,Access-Control-Request-Method,Access-Control-Request-Headers",
+        "X-Rate-Limit-Remaining": "46",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+        "Pragma": "no-cache",
+        "Expires": "0",
+        "Strict-Transport-Security": "max-age=31536000 ; includeSubDomains",
+        "X-Frame-Options": "DENY"
+    },
+    "data": "{\n  \"count\" : 1,\n  \"agent_reply_count\" : 0,\n  \"contact_reply_count\" : 0,\n  \"public_note_count\" : 0,\n  \"private_note_count\" : 1,\n  \"forward_message_count\" : 0,\n  \"conversations\" : [ {\n    \"ticket_number\" : 90,\n    \"created_by\" : \"patrick.stampfer@omest.com\",\n    \"creator_name\" : \"Patrick Stampfer\",\n    \"type\" : \"note\",\n    \"public_note\" : false,\n    \"sender_type\" : \"agent\",\n    \"cc_address\" : null,\n    \"bcc_address\" : null,\n    \"to_address\" : null,\n    \"notified_agents\" : null,\n    \"body\" : \"<div>This is a note added to the ticket.<\/div>\",\n    \"body_text\" : \"This is a note added to the ticket.\",\n    \"attachments_count\" : 0,\n    \"attachments\" : [ ],\n    \"created_on\" : \"2025-11-24 12:43:30\",\n    \"is_email_deliveribility_failiure\" : false,\n    \"email_bounce_type\" : null,\n    \"email_bounce_status\" : null\n  } ]\n}",
+    "context": []
+}

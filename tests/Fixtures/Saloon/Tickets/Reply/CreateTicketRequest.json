@@ -1,0 +1,21 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Mon, 24 Nov 2025 12:43:46 GMT",
+        "Content-Type": "application\/json",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Server": "Apache\/2.4.64 (Amazon Linux) OpenSSL\/3.2.2",
+        "Vary": "Origin,Access-Control-Request-Method,Access-Control-Request-Headers",
+        "X-Rate-Limit-Remaining": "49",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+        "Pragma": "no-cache",
+        "Expires": "0",
+        "Strict-Transport-Security": "max-age=31536000 ; includeSubDomains",
+        "X-Frame-Options": "DENY"
+    },
+    "data": "{\n  \"ticket_number\" : 91,\n  \"contact_email\" : \"test@example.com\",\n  \"contact_name\" : \"test\",\n  \"subject\" : \"Printer not working\",\n  \"description\" : \"<div>Please fix it<\/div>\",\n  \"description_text\" : \"Please fix it\",\n  \"status\" : \"Open\",\n  \"priority\" : 1,\n  \"type\" : \"\\uD83D\\uDE4B Question\",\n  \"source\" : 15,\n  \"form_name\" : \"Create Ticket\",\n  \"form_is_deleted\" : 0,\n  \"assigned_to\" : null,\n  \"company_name\" : null,\n  \"sla\" : \"Europacco Priority\",\n  \"completed_within_sla\" : null,\n  \"group\" : null,\n  \"category\" : null,\n  \"subcategory\" : null,\n  \"created_on\" : \"2025-11-24 12:43:44\",\n  \"updated_on\" : \"2025-11-24 12:43:46\",\n  \"resolved_on\" : null,\n  \"closed_on\" : null,\n  \"due_date\" : \"2025-12-04 16:00:00\",\n  \"first_response_time\" : null,\n  \"first_assigned_time\" : null,\n  \"first_assigned_duration\" : null,\n  \"resolved_duration\" : null,\n  \"first_replied_duration\" : null,\n  \"closed_duration\" : null,\n  \"custom_fields\" : {\n    \"cf_\\uD83D\\uDD21 Clientnumber\" : \"12345\",\n    \"cf_\\uD83D\\uDD11 Shipmentkey OLS\" : \"OLS-001\",\n    \"cf_\\uD83D\\uDCE6 Pickup number OLP\" : null,\n    \"cf_Putaway OMG\" : null,\n    \"cf_\\uD83D\\uDCE6 EPC Number\" : null\n  },\n  \"attachments\" : [ ],\n  \"watchers\" : [ ],\n  \"share_to\" : [ ],\n  \"conversation_count\" : 0\n}",
+    "context": []
+}
