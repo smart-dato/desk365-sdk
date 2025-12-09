@@ -57,10 +57,10 @@ test('create new ticket and update the priority', function () {
                 status: TicketStatus::Open,
                 priority: TicketPriority::Low,
                 type: TicketType::Question,
-                customFields: new CustomFieldsData(
-                    clientNumber: '12345',
-                    shipmentKeyOls: 'OLS-001',
-                ),
+                customFields: new CustomFieldsData([
+                    'cf_🔡 Clientnumber' => '12345',
+                    'cf_🔑 Shipmentkey OLS' => 'OLS-001',
+                ]),
             )
         )
     );
@@ -97,10 +97,10 @@ it('can add note', function () {
                 status: TicketStatus::Open,
                 priority: TicketPriority::Low,
                 type: TicketType::Question,
-                customFields: new CustomFieldsData(
-                    clientNumber: '12345',
-                    shipmentKeyOls: 'OLS-001',
-                ),
+                customFields: new CustomFieldsData([
+                    'cf_🔡 Clientnumber' => '12345',
+                    'cf_🔑 Shipmentkey OLS' => 'OLS-001',
+                ]),
             )
         )
     );
@@ -152,10 +152,10 @@ it('can add reply', function () {
                 status: TicketStatus::Open,
                 priority: TicketPriority::Low,
                 type: TicketType::Question,
-                customFields: new CustomFieldsData(
-                    clientNumber: '12345',
-                    shipmentKeyOls: 'OLS-001',
-                ),
+                customFields: new CustomFieldsData([
+                    'cf_🔡 Clientnumber' => '12345',
+                    'cf_🔑 Shipmentkey OLS' => 'OLS-001',
+                ]),
             )
         )
     );
