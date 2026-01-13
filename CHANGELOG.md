@@ -2,6 +2,10 @@
 
 All notable changes to `Desk365 SDK` will be documented in this file.
 
+## 0.0.5 - 2026-01-13
+
+**Full Changelog**: https://github.com/smart-dato/desk365-sdk/compare/0.0.4...0.0.5
+
 ## 0.0.3 - 2025-12-09
 
 **Full Changelog**: https://github.com/smart-dato/desk365-sdk/compare/0.0.2...0.0.3
