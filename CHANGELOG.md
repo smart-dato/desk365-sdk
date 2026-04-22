@@ -2,6 +2,19 @@
 
 All notable changes to `Desk365 SDK` will be documented in this file.
 
+## 0.0.7 - 2026-04-22
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 3.0.0 to 3.1.0 by @dependabot[bot] in https://github.com/smart-dato/desk365-sdk/pull/7
+* Add OLC ticket group and delay tracking / address change categories by @Xsaven in https://github.com/smart-dato/desk365-sdk/pull/8
+
+### New Contributors
+
+* @Xsaven made their first contribution in https://github.com/smart-dato/desk365-sdk/pull/8
+
+**Full Changelog**: https://github.com/smart-dato/desk365-sdk/compare/0.0.6...0.0.7
+
 ## 0.0.5 - 2026-01-13
 
 **Full Changelog**: https://github.com/smart-dato/desk365-sdk/compare/0.0.4...0.0.5
