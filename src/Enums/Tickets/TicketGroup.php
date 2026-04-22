@@ -6,4 +6,5 @@ enum TicketGroup: string
 {
     case EPC_DE = '📣 CX EPC DE';
     case EUROPACCO = '🚛 Europacco - Customer experience Team';
+    case OLC = '🚛 OLC - DLS Logistics Center';
 }

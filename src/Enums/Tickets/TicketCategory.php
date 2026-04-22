@@ -11,5 +11,7 @@ enum TicketCategory: string
     case EPC_QUOTE = '📑 EPC quote';
     case GENERAL_INFORMATION = 'ℹ️ General information';
     case OTHER = '💬 Other';
+    case DELAY_TRACKING = '⏱️ Delay / tracking unclear';
+    case ADDRESS_CHANGE = '🗂️ Address change';
 
 }
