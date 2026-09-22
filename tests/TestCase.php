@@ -4,6 +4,7 @@ namespace SmartDato\Desk365\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
+use Saloon\Http\Faking\MockClient;
 use SmartDato\Desk365\Desk365ServiceProvider;
 use Spatie\LaravelData\LaravelDataServiceProvider;
 
@@ -16,6 +17,18 @@ class TestCase extends Orchestra
         Factory::guessFactoryNamesUsing(
             fn (string $modelName) => 'SmartDato\\Desk365\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
+    }
+
+    /**
+     * MockClient::global() is a ??= assignment, so the first test to call it
+     * wins and every later call silently returns that first set of mocks.
+     * Saloon expects it to be torn down between tests.
+     */
+    protected function tearDown(): void
+    {
+        MockClient::destroyGlobal();
+
+        parent::tearDown();
     }
 
     protected function getPackageProviders($app): array
